@@ -1,0 +1,107 @@
+
+body{
+    overflow: hidden;
+    background-color:whitesmoke;
+}
+.main{
+    margin: 4rem;
+    background-color: transparent;
+}
+.leftdiv{
+    float: left;
+    width: 50%;
+    
+}
+.rightdiv{
+    float: left;
+    width: 38%;
+    height: 100%;
+    padding-left: 9rem;
+}
+.welcomeimg {
+    width: 100%;
+    object-fit: cover; 
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('/fonts/Roboto-Bold.woff2') format('woff2'),
+         url('/fonts/Roboto-Bold.woff') format('woff');
+    font-weight: bold; 
+    font-style: normal; 
+  }
+
+  @font-face {
+    font-family: 'Roboto-Regualar';
+    src: url('/fonts/Roboto-Regualar.woff2') format('woff2'),
+         url('/fonts/Roboto-Regualar.woff') format('woff'); 
+
+  }
+h1{
+    font-family: 'Roboto-Bold', sans-serif;
+    font-size: 80px;
+    padding-left: 5rem;
+}
+p{
+    font-family: 'Roboto-Regular';
+    font-size: 20px;
+    padding-left: 5rem;
+
+}
+h2{
+    font-family: 'Roboto-Regular';
+    padding-left: 5rem;
+
+}
+.email{
+    position: absolute;
+    width:450px;
+    height:50px;
+     margin-left: 5rem;
+     border-radius: 5px;
+     padding-left: 20px;
+
+}
+.btn{
+    position: relative;
+    top: 80px;
+    font-family: 'Roboto-Bold', sans-serif;
+    font-size: 20px;
+    color: white;
+    margin-left: 5rem;
+    width:470px;
+     height:50px;
+     border: none;
+     border-radius: 5px;
+     background-color: #002244;
+}
+.custom-list{
+    list-style: none;
+    font-family: 'Roboto-Regular';
+    padding-left: 5rem;
+    font-size: 18px;
+    padding-top: 1rem;
+    line-height: 2.5;
+
+}
+.custom-list li{
+    background-image: url(assets/images/icon-list.svg);
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    padding-top: 0px;
+    background-size: 15px 15px;
+    background-position: 4px;
+
+}
+.welcomeimg{
+    fill: aliceblue;
+}
+
+.container {
+    display: flex; /* Use flexbox to position child divs side by side */
+    padding: 80px 80px; /* Add padding for spacing */
+  }
+  
+  
+  /* You can adjust the widths and padding values to achieve the desired spacing and layout. */
+  

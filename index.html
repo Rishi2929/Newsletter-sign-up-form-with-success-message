@@ -19,7 +19,8 @@
 
 
 
-    <div class="container">
+   <div id="cover">
+    <div class="container" id="cont">
 
       <div class="leftdiv">
 
@@ -33,8 +34,8 @@
         </ul>
     
         <h2>Email address</h2>
-        <input type="email" name="email" placeholder="email@company.com" class="email">
-        <button type="submit" class="btn"> Subscribe to monthly newsletter </button>
+        <input type="email" name="email" placeholder="email@company.com" class="email" required>
+        <button type="submit" class="btn" id="submitbtn"> Subscribe to monthly newsletter </button>
     
       </div>
     
@@ -44,6 +45,14 @@
     
       </div>
 
+    </div>
+   </div>
+
+    <div id="success">
+      <img src="assets/images/icon-success.svg" alt="icon">
+      <h4>Thanks for <br> subscribing!</h4>
+      <p>A confirmation email has sent to <br> ash@lorencecompany.com. Please open it and click <br> the button inside to confirm your subscription.</p>
+      <button id="dismiss_btn">Dismiss message</button>
     </div>
 
 
@@ -76,5 +85,6 @@
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="https://github.com/rishi2929" target="_blank">Rishi</a>.
   </div> -->
+  <script src="script.js"></script>
 </body>
 </html>
